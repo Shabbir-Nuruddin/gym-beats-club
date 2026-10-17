@@ -1,5 +1,4 @@
-import "@fontsource/mukta/600.css";
-import "@fontsource/mukta/800.css";
+import "@fontsource/bricolage-grotesque/800.css";
 import type { Site } from "./lib";
 
 export const SITE: Site = {
@@ -18,49 +17,65 @@ export const SITE: Site = {
   "lon": 77.0692015,
   "hours": [
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ]
   ],
   "theme": {
-    "dark": false,
-    "bg": "#ffffff",
-    "bg2": "#f4f4f2",
-    "panel": "#ffffff",
-    "ink": "#111111",
-    "ink2": "#4b4b4b",
-    "ink3": "#858585",
-    "line": "#e4e4e0",
-    "onAccent": "#ffffff",
-    "display": "Mukta",
+    "dark": true,
+    "bg": "#10070c",
+    "bg2": "#181015",
+    "panel": "#1e161b",
+    "ink": "#f6eceb",
+    "ink2": "#c3baba",
+    "ink3": "#887e80",
+    "line": "#2a2227",
+    "accent": "#ff3d8a",
+    "onAccent": "#290a16",
+    "display": "Bricolage Grotesque",
     "weight": 800,
-    "upper": false,
-    "accent": "#1d4ed8"
+    "upper": false
   },
+  "scene": "neon",
+  "align": "left",
   "hero": {
     "title": [
       {
@@ -76,13 +91,7 @@ export const SITE: Site = {
       "en": "4.9 on Google from 297 reviews. Members write about trainer Hem, coaches Kaushal and Shivam and a pocket-friendly gym in Kanhai.",
       "hi": "गूगल पर 297 रिव्यू से 4.9। मेंबर ट्रेनर हेम, कोच कौशल और शिवम और कन्हाई के किफ़ायती जिम के बारे में लिखते हैं।"
     },
-    "fallback": "/img/p9.jpg",
-    "slides": [
-      "/img/p9.jpg",
-      "/img/p14.jpg",
-      "/img/p3.jpg",
-      "/img/p16.jpg"
-    ]
+    "fallback": "/img/p9.jpg"
   },
   "marquee": [
     "Strength",
@@ -321,5 +330,40 @@ export const SITE: Site = {
       "en": "Hi Gym Beats Club, I'd like to enquire:",
       "hi": "नमस्ते जिम बीट्स क्लब, मुझे जानकारी चाहिए:"
     }
-  }
+  },
+  "story": [
+    {
+      "kicker": {
+        "en": "Coaching",
+        "hi": "ट्रेनिंग"
+      },
+      "title": {
+        "en": "Guided every session.",
+        "hi": "हर सेशन में गाइडेंस।"
+      },
+      "quote": "I have never seen such trainer who always guide you motivate you."
+    },
+    {
+      "kicker": {
+        "en": "Care",
+        "hi": "ख़्याल"
+      },
+      "title": {
+        "en": "Strict, for your own good.",
+        "hi": "सख़्त, आपकी भलाई के लिए।"
+      },
+      "quote": "The trainer is very friendly and at the same time strict when it comes to the workout(for our own good)."
+    },
+    {
+      "kicker": {
+        "en": "Space",
+        "hi": "जगह"
+      },
+      "title": {
+        "en": "Never overcrowded.",
+        "hi": "कभी भीड़-भाड़ नहीं।"
+      },
+      "quote": "It has just the right amount of space not too congested and never overcrowded."
+    }
+  ]
 };
